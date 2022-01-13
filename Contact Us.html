@@ -1,0 +1,202 @@
+<html>
+
+<head>
+
+<script src = "Contact Us.js"></script>
+
+<title> The Ulimate Travel/Contact Us </title>
+
+<link rel="stylesheet" type="text/css" href="Contact Us.css">
+
+</head>
+
+<body bgcolor = "white">
+ <!--
+title bar (navigation menu bar)
+-->
+
+ <ul>
+ <li> <p class = "Bigblue">
+<font size = "6.5"> The Ultimate Travel  </font> </br>
+ <font size = "3" style = "padding-left : 5em" > Let's explore the world together </font> </p> </li>
+<li style = "padding-left : 3em"> <a href="Home.html"> Home </a> </li>
+<li> <a href="Quote.html">Quote</a></li>
+<li> <a href="Vacations.html">Vacations</a></li>
+<li> <a href="Destinations.html">Destinations</a></li>
+<li> <a href="Flights.html">Flights</a></li>
+<li> <a href="Hotels.html">Hotels</a></li>
+<li> <a href="Contact us.html">Contact Us</a></li>
+</ul>
+
+<!--   
+
+contact form
+
+-->
+</br>
+</br>
+<h1> <center>  Contact Form  </center> </h1>
+</br>
+</br>
+  <form name="myForm" class = "contactinfo" action="http://www.WebsiteDevelopmentBook.com/FormEcho.php" method="post" onsubmit="return ValidateForm()">
+  
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="first name" placeholder="Your first name..."> </br> </br>
+	
+	<label for="lname">Last Name</label>
+    <input type="text" id="lname" name="last name" placeholder="Your last name..."></br> </br>
+	
+	<label for="Email">Email Id</label>
+    <input type="text" id="Email" name="email" placeholder="abc@xyz.com"> </br> </br>
+	
+	<label for="phone">Phone Number</label>
+	<input type="text"  name="phone number" placeholder="(+country code)1234567890... "/><br/>
+	
+	<label for="State">State</label>
+    <select id="State" name="State">
+		<option>---Select---</option>
+		<option>New York</option>
+		<option>New Jersey</option>
+		<option>Maine</option>
+		<option>Nevada</option>
+		<option>California</option>
+		<option>Illinois</option>
+		<option>Texas</option>
+		<option>Massachusetts</option>
+		<option value="Other">Other</option>
+    </select> </br></br>
+	<label for="State">Have you ever travelled with The Ultimate Travel? </label> </br>
+	<input type="checkbox" name="yes" value="yes"> Yes
+	<input type="checkbox" name="No" value="No"> No<br> </br>
+	
+	<label for="State">What you rate our website out of five? </label> </br>
+	<input type="radio" name="rate" value="1"> 1 
+	<input type="radio" name="rate" value="2"> 2 
+	<input type="radio" name="rate" value="3"> 3 
+	<input type="radio" name="rate" value="4"> 4 
+	<input type="radio" name="rate" value="5"> 5 </br> </br>
+	
+	<label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <center> <input type="submit" value="Submit"> </center>
+	
+</form> </br></br>
+
+
+<h1> <center>  Contact Information  </center> </h1>
+</br>
+</br>
+<hr>
+<table id="customers">
+  <tr>
+    <th>Company offices</th>
+    <th>Contact</th>
+    <th>Country</th> 
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Jimmy Google</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Berglunds snabbköp</td>
+    <td>Christin berbong</td>
+    <td>Sweden</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francini Chang</td>
+    <td>Mexico</td>
+  </tr>
+  <tr>
+    <td>Ernst Handel</td>
+    <td>Rolemeo donald</td>
+    <td>Austria</td>
+  </tr>
+  <tr>
+    <td>Island Trading</td>
+    <td>Helen Benhett</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Königlich Essen</td>
+    <td>Philip Crismoki</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Laughing Bacchus Winecellars</td>
+    <td>haundi Tannamuri</td>
+    <td>Canada</td>
+  </tr>
+  <tr>
+    <td>Magazzini Alimentari Riuniti</td>
+    <td>Giovanni Rovetzmi</td>
+    <td>Italy</td>
+  </tr>
+  <tr>
+    <td>The Ultimate Travel</td>
+    <td>Simon Crowther</td>
+    <td>US</td>
+  </tr>
+  <tr>
+    <td>Paris spécialités</td>
+    <td>Marie Bertrand</td>
+    <td>France</td>
+  </tr>
+</table>
+</br> </br>
+<!---------------------second table----------------
+---------------------------------------------------->
+<table id="customers">
+  <tr>
+    <th colspan = "2">Other Information</th>
+  <tr>
+   <tr>
+    <td>Email : </td>
+    <td>hennabroski09@gmail.com</td>
+  </tr>
+  <tr>
+    <td>Email : </td>
+    <td>coviison85@yahoo.com</td>
+  </tr>
+  <tr>
+    <td>Email : </td>
+    <td>kevinwatson59@hotmail.com</td>
+  </tr>  
+  <tr>
+    <td>United States phonenumber : </td>
+    <td>+1 7182653456</td>
+  </tr>   
+  <tr>
+    <td>UK phonenumber : </td>
+    <td>+44 0179645698</td>
+  </tr> 
+  <tr>
+    <td>Germany phonenumber : </td>
+    <td>+49 5644378569</td>
+  </tr> 
+  <tr>
+    <td>Australia phonenumber : </td>
+    <td>+61 3476547681</td>
+  </tr> 
+</table></br> </br>
+  
+<iframe width="850" height="550" src="https://www.youtube.com/embed/Yeg1QSlYMcc" 
+frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe> </br> </br>
+ <ul>
+ <li> <p class = "Bigblue">
+<font size = "6.5"> The Ultimate Travel  </font> </br>
+ <font size = "3" style = "padding-left : 5em" > Let's explore the world together </font> </p> </li>
+<li style = "padding-left : 3em"> <a href="Home.html"> Home </a> </li>
+<li> <a href="Quote.html">Quote</a></li>
+<li> <a href="Vacations.html">Vacations</a></li>
+<li> <a href="Destinations.html">Destinations</a></li>
+<li> <a href="Flights.html">Flights</a></li>
+<li> <a href="Hotels.html">Hotels</a></li>
+<li> <a href="Contact us.html">Contact Us</a></li>
+</ul>
+
+</body>
+</html>

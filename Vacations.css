@@ -1,0 +1,54 @@
+
+.Bigblue {color : #ff0000; font-weight : bold; background-color : black;text-align : center;margin: 0; padding:0;overflow: hidden;
+}
+ul { 
+    list-style-type: none;
+    margin : -8px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+.leftspace {
+	margin-left : 5%;
+}
+.leftright {
+	margin-left : 62%;
+	margin-right : 3%;
+	color : black;
+	font-size: 20px;
+	font-style : Arial;
+}
+button {
+	background-color : #b30000;
+	height : 45px;
+	color : white;
+	border: none;
+	border-radius: 5px;
+	padding: 15px 32px;
+}
+.halfbackground {
+	background-color : #d9d9d9;
+}
+.thirdone {
+	margin-left : 55%;
+	margin-right : 5%;
+	color : black;
+	font-size: 20px;
+	font-style : Arial;
+}
